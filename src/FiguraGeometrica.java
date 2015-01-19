@@ -1,6 +1,7 @@
 public class FiguraGeometrica {
-	private Double base, altura;
 	private String nombre;
+	private Double base, altura;
+
 	
 	public FiguraGeometrica() {}
 	

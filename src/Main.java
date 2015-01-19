@@ -56,10 +56,21 @@ public class Main {
 		
 		System.out.println("\nHistorial:");
 		Enumeration<FiguraGeometrica> enumeracion = historial.elements();
-	    while (enumeracion.hasMoreElements()) {
-	    	System.out.println("	" + enumeracion.nextElement().getNombre() +"	" + enumeracion.nextElement().getAltura()+"	"+enumeracion.nextElement().getBase());
-	    }
+		Enumeration<Integer> llaves = historial.keys();
+		
+		/*
+		//Enumeration<Integer> llaves = historial.keys();
+		System.out.println("keys:");
+	    while (llaves.hasMoreElements()) {
+		    System.out.println("    "+"hashtable llaves: " + llaves.nextElement());
+	    }*/
 	    
+		
+		while (enumeracion.hasMoreElements()) {
+	    	System.out.println(llaves.nextElement()+"	nombre: " + enumeracion.nextElement().getNombre());
+	    	//System.out.println(llaves.nextElement()+"	nombre: " + enumeracion.nextElement().getNombre() +"	base: " + enumeracion.nextElement().getBase()+"	altura: "+enumeracion.nextElement().getAltura());
+		}
+		
 		System.out.println("\nAdios");
 		sc.close();
 	}
