@@ -1,9 +1,11 @@
 public class FiguraGeometrica {
 	private Double base, altura;
+	private String nombre;
 	
 	public FiguraGeometrica() {}
 	
-	public FiguraGeometrica(double base,double altura) {
+	public FiguraGeometrica(String nombre,double base,double altura) {
+		this.nombre=nombre;
 		this.base=base;
 		this.altura = altura;
 	}
@@ -20,6 +22,13 @@ public class FiguraGeometrica {
 	 }
 	public double getAltura() {
 		return altura;
+	}
+	
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	 }
+	public String getNombre() {
+		return nombre;
 	}
 	
 	public double area() {double area=0.0;return area;}

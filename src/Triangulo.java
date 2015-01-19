@@ -2,7 +2,7 @@ public class Triangulo extends FiguraGeometrica {
 	private double area, peri ;
 
 	public Triangulo(double base, double altura) {
-		super(base, altura);
+		super("Triangulo",base, altura);
 	}
 
 	@Override public double area(){
