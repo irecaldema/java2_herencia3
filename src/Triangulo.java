@@ -5,12 +5,12 @@ public class Triangulo extends FiguraGeometrica {
 		super(base, altura);
 	}
 
-	@override double area(){
+	@Override double area(){
 		area = getBase()*getAltura()/2;
 		return area;
 	}
 	//Triángulo equilatero
-	@override double perimetro() {
+	@Override double perimetro() {
 		peri = getBase()*3;
 		return peri;
 	}

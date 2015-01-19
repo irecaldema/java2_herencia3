@@ -22,12 +22,12 @@ public class FiguraGeometrica {
 		return altura;
 	}
 	
-	public double area() {}
+	public void area() {}
 	
-	public double perimetro() {}
+	public void perimetro() {}
 	
 	public double mostrar() {
-		System.outputln("Datos de la figura geometrica: ");
+		System.out.println("Datos de la figura geometrica: ");
 	}
 	
 }
