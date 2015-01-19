@@ -27,7 +27,7 @@ public class FiguraGeometrica {
 	public double perimetro() {double perimetro=0.0; return perimetro;}
 	
 	public void mostrar() {
-		System.out.println("Datos de la figura geometrica: ");
+		System.out.println("\nDatos de la figura geometrica: ");
 	}
 	
 }
