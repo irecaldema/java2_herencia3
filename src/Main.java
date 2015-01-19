@@ -25,8 +25,9 @@ public class Main {
 				Triangulo triangulo = new Triangulo(base,altura);
 
 				triangulo.mostrar();
-				historial.put(contador,triangulo);
+				
 				contador++;
+				historial.put(contador,triangulo);
 			}
 			else  if(opcion=='R'||opcion=='r') { 
 				System.out.print("\ningresa la base del rectangulo a analizar: ");
@@ -38,8 +39,9 @@ public class Main {
 				Rectangulo rectangulo = new Rectangulo(base,altura);
 
 				rectangulo.mostrar();
-				historial.put(contador,rectangulo);
+				
 				contador++;
+				historial.put(contador,rectangulo);
 			}
 			else {
 				System.out.println("\nVa a ser que no has escrito bien...");
