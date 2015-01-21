@@ -1,4 +1,4 @@
-public class FiguraGeometrica {
+abstract class FiguraGeometrica {
 	private String nombre;
 	private Double base, altura;
 
@@ -32,9 +32,8 @@ public class FiguraGeometrica {
 		return nombre;
 	}
 	
-	public double area() {double area=0.0;return area;}
-	
-	public double perimetro() {double perimetro=0.0; return perimetro;}
+	abstract double area();
+	abstract double perimetro();
 	
 	public void mostrar() {
 		System.out.println("\nDatos de la figura geometrica: ");
