@@ -67,9 +67,9 @@ public class Main {
 	    
 		
 		while (enumeracion.hasMoreElements()) {
-	    	System.out.println(llaves.nextElement()+"	nombre: " + enumeracion.nextElement().getNombre());
-	    	//System.out.println(llaves.nextElement()+"	nombre: " + enumeracion.nextElement().getNombre() +"	base: " + enumeracion.nextElement().getBase()+"	altura: "+enumeracion.nextElement().getAltura());
-		}
+			FiguraGeometrica temp = enumeracion.nextElement();
+			System.out.println(llaves.nextElement()+"	nombre: " + temp.getNombre() +"	base: " + temp.getBase()+"	altura: "+temp.getAltura());
+	    }
 		
 		System.out.println("\nAdios");
 		sc.close();
