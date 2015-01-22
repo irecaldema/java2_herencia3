@@ -1,8 +1,7 @@
 abstract public class FiguraGeometrica {
 	private String nombre;
 	private Double base, altura;
-	public double area, peri;
-	
+
 	public FiguraGeometrica() {}
 	
 	public FiguraGeometrica(String nombre,double base,double altura) {

@@ -5,12 +5,12 @@ public class Rectangulo extends FiguraGeometrica {
 	}
 		
 	@Override public double area() {
-		area = getBase()*getAltura();
+		double area = getBase()*getAltura();
 		return area;
 	}
 
 	@Override public double perimetro() {
-		peri = 2*getBase()+2*getAltura();
+		double peri = 2*getBase()+2*getAltura();
 		return peri;
 	}
 	
