@@ -1,5 +1,4 @@
 public class Rectangulo extends FiguraGeometrica {
-	private double area, peri ;
 
 	public Rectangulo(double base, double altura) {
 		super ("Rectangulo",base,altura);
