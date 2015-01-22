@@ -1,7 +1,11 @@
 public class Triangulo extends FiguraGeometrica {
 
+	public Triangulo(){};
+	
 	public Triangulo(double base, double altura) {
-		super("Triangulo",base, altura);
+		setNombre("Triangulo");
+		setBase(base);
+		setAltura(altura);		
 	}
 
 	@Override public double area(){

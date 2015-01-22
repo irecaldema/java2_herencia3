@@ -1,7 +1,11 @@
 public class Rectangulo extends FiguraGeometrica {
 
+	public Rectangulo(){};
+	
 	public Rectangulo(double base, double altura) {
-		super ("Rectangulo",base,altura);
+		setNombre("rectangulo");
+		setBase(base);
+		setAltura(altura);
 	}
 		
 	@Override public double area() {

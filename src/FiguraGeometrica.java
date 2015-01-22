@@ -2,14 +2,6 @@ abstract public class FiguraGeometrica {
 	private String nombre;
 	private Double base, altura;
 
-	public FiguraGeometrica() {}
-	
-	public FiguraGeometrica(String nombre,double base,double altura) {
-		this.nombre=nombre;
-		this.base=base;
-		this.altura = altura;
-	}
-	
 	public void setBase(double base) {
 		this.base = base;
 	 }	
