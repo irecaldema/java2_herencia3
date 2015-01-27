@@ -1,4 +1,4 @@
-abstract public class FiguraGeometrica {
+public abstract class FiguraGeometrica {
 	private String nombre;
 	private Double base, altura;
 
