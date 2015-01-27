@@ -23,8 +23,8 @@ public abstract class FiguraGeometrica {
 		return nombre;
 	}
 	
-	abstract double area();
-	abstract double perimetro();
+	protected abstract double area();
+	protected abstract double perimetro();
 	
 	public void mostrar() {
 		System.out.println("\nDatos de la figura geometrica: ");
