@@ -6,14 +6,14 @@ public abstract class FiguraGeometrica {
 	public void setBase(double base) {
 		this.base = base;
 	 }	
-	protected double getBase() {
+	/*public*/ double getBase() {
 		return base;
 	}
 	
 	public void setAltura(double altura) {
 		this.altura = altura;
 	 }
-	protected double getAltura() {
+	/*public*/ double getAltura() {
 		return altura;
 	}
 	
@@ -24,7 +24,7 @@ public abstract class FiguraGeometrica {
 		return nombre;
 	}
 	
-	protected abstract double area();
+	/*protected*/ abstract double area();
 	protected abstract double perimetro();
 	
 	public void mostrar() {
