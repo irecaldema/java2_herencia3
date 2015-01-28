@@ -1,3 +1,4 @@
+package figuras;
 public abstract class FiguraGeometrica {
 	private String nombre;
 	private Double base, altura;

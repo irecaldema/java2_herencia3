@@ -1,3 +1,4 @@
+package figuras;
 public class Triangulo extends FiguraGeometrica {
 
 	public Triangulo(){};

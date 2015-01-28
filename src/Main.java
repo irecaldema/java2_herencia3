@@ -1,4 +1,6 @@
-//package java2_Herencia3;
+import figuras.FiguraGeometrica;
+import figuras.Rectangulo;
+import figuras.Triangulo;
 import java.util.Scanner;
 import java.util.Hashtable;
 import java.util.Enumeration;
