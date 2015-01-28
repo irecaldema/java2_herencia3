@@ -1,3 +1,4 @@
+//package java2_Herencia3;
 public class Triangulo extends FiguraGeometrica {
 
 	public Triangulo(){};
