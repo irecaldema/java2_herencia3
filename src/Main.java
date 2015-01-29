@@ -1,7 +1,7 @@
 //import figuras.FiguraGeometrica;
 //import figuras.Rectangulo;
 //import figuras.Triangulo;
-//import figuras.*; //importacion de todas las clases del paquete
+import figuras.*; //importacion de todas las clases del paquete
 import java.util.Scanner;
 import java.util.Hashtable;
 import java.util.Enumeration;
