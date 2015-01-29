@@ -1,6 +1,6 @@
-import figuras.FiguraGeometrica;
-import figuras.Rectangulo;
-import figuras.Triangulo;
+//import figuras.FiguraGeometrica;
+//import figuras.Rectangulo;
+//import figuras.Triangulo;
 import java.util.Scanner;
 import java.util.Hashtable;
 import java.util.Enumeration;
