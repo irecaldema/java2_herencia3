@@ -17,7 +17,7 @@ subclases       Rectangulo, Triangulo   Rectangulo, Triangulo
 
 clase                                   Main
 
-Trabajanmdo con paquete
+Trabajando con paquete
 Main al estar fuera del paquete accede a las clases importadas del paquete a los metodos y propiedades publicas.
 
 FigurasGeometrica tiene las propiedades en private y los metodos en public y en protected.
@@ -35,12 +35,13 @@ Triangulo igual que Rectangulo.
         El main ejecuta rectangulo.area() pero no figurageometrica.area()
 
 
-trabajando sin paquete
+Trabajando sin paquete
 
 El main esta en la misma carpeta que las clases accede a ellas sin importarlas. Mismo "paquete" accede a publicas, default, y protected.
 No puede acceder a private.
 
     problema1
+    
     En este caso no hay diferencia en el acceso a protected, public o default, no hay problema.
 
 
