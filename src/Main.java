@@ -1,7 +1,7 @@
-//import figuras.FiguraGeometrica;
-//import figuras.Rectangulo;
-//import figuras.Triangulo;
-import figuras.*; //importacion de todas las clases del paquete
+import figuras.FiguraGeometrica;
+import figuras.Rectangulo;
+import figuras.Triangulo;
+//import figuras.*; //importacion de todas las clases del paquete
 import java.util.Scanner;
 import java.util.Hashtable;
 import java.util.Enumeration;
@@ -41,7 +41,9 @@ public class Main {
 				altura = sc.nextDouble();   
 
 				Rectangulo rectangulo = new Rectangulo(base,altura);
-
+				
+				System.out.print("\nprotected override public: "+/*FiguraGeometrica.area()*/+rectangulo.area());
+				
 				rectangulo.mostrar();
 				
 				contador++;
