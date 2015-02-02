@@ -42,6 +42,8 @@ public class Main {
 
 				Rectangulo rectangulo = new Rectangulo(base,altura);
 				
+				//ejecucion de metodo protegido sobrescrito a publico
+				//accesible solo desde la clase que la sobrescribio
 				System.out.print("\nprotected override public: "+/*FiguraGeometrica.area()*/+rectangulo.area());
 				
 				rectangulo.mostrar();
