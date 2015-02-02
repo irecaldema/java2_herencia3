@@ -18,31 +18,32 @@ subclases       Rectangulo, Triangulo   Rectangulo, Triangulo
 clase                                   Main
 
 Trabajando con paquete
-Main al estar fuera del paquete accede a las clases importadas del paquete a los metodos y propiedades publicas.
 
-FigurasGeometrica tiene las propiedades en private y los metodos en public y en protected.
-Puse protected los metodos que no queria que se usaran directamente "problema1"
-
-Rectangulo no contiene mas propiedades que las heredadas esta en el mismo paquete no accede a private.
-
-Triangulo igual que Rectangulo.
-
-    problema1
+    Main al estar fuera del paquete accede a las clases importadas del paquete a los metodos y propiedades publicas.
     
-    El metodo es protected y override de la subclase es public pero a la hora de acceder por el protected se ejecuta tambien el public.
-    Se ejecuta el mismo codigo pero con diferentes restricciones dependiendo de donde se acceda.
+    FigurasGeometrica tiene las propiedades en private y los metodos en public y en protected.
+    Puse protected los metodos que no queria que se usaran directamente "problema1"
     
-        El main ejecuta rectangulo.area() pero no figurageometrica.area()
+    Rectangulo no contiene mas propiedades que las heredadas esta en el mismo paquete no accede a private.
+    
+    Triangulo igual que Rectangulo.
+    
+        problema1
+        
+        El metodo es protected y override de la subclase es public pero a la hora de acceder por el protected se ejecuta tambien el public.
+        Se ejecuta el mismo codigo pero con diferentes restricciones dependiendo de donde se acceda.
+        
+            El main ejecuta rectangulo.area() pero no figurageometrica.area()
 
 
 Trabajando sin paquete
 
-El main esta en la misma carpeta que las clases accede a ellas sin importarlas. Mismo "paquete" accede a publicas, default, y protected.
-No puede acceder a private.
-
-    problema1
+    El main esta en la misma carpeta que las clases accede a ellas sin importarlas. Mismo "paquete" accede a publicas, default, y protected.
+    No puede acceder a private.
     
-    En este caso no hay diferencia en el acceso a protected, public o default, no hay problema.
+        problema1
+        
+        En este caso no hay diferencia en el acceso a protected, public o default, no hay problema.
 
 
 
