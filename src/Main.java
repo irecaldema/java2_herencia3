@@ -1,6 +1,9 @@
 import figuras.FiguraGeometrica;
 import figuras.Rectangulo;
 import figuras.Triangulo;
+import figuras2.Circulo1;
+import figuras2.Circulo2;
+import figuras2.Circulo3;
 //import figuras.*; //importacion de todas las clases del paquete
 import java.util.Scanner;
 import java.util.Hashtable;
